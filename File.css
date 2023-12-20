@@ -1,0 +1,64 @@
+/*
+*{
+    background-color: black;
+    color: white;
+
+}
+*/
+
+
+.ingDiv{
+    display: flex;
+   
+width: 80%;
+margin: 4px;
+
+}
+
+
+.imaje {
+    width: 50%; 
+    margin: 0 auto;
+}
+
+.imaje img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Example: add a box shadow */
+}
+
+.batons {
+    display: flex;
+    
+}
+.custom-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    margin: 6px;
+    border-radius: 5px;
+}
+
+.orange-background {
+    background-color: orange;
+    color: white;
+}
+
+.orange-border {
+    border: 2px solid orange;
+    color: orange;
+    background-color: white;
+}
+
+.custom-button:hover {
+    background-color: #2980b9;
+    color: white;
+}
+
+.orange-border:hover {
+    border-color: #2980b9;
+    color: #2980b9;
+    background-color: white;
+}
